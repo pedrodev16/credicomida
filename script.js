@@ -1,132 +1,146 @@
 const menuItems = [
     {
         id: 1,
-        name: "Combo 2 Perros Calientes",
-        description: "2 perros calientes + refresco pequeño",
-        price: 85,
-        downPayment: 25,
-        weeklyPayment: 20,
-        image: "combo-clasico.png"
+        name: "Combo 2 Perros",
+        description: "2 perros normales + refresco pequeño",
+        price: 5.55,
+        price_tienda: 1.57,
+        downPayment: 2.25,
+        weeklyPayment: 1.30,
+        image: "perr.jpg"
     },
     {
         id: 2,
         name: "Combo 4 Perros Normales",
         description: "4 perros normales + refresco 1 litro",
-        price: 150,
-        downPayment: 45,
-        weeklyPayment: 35,
-        image: "combo-familiar.png"
+        price: 9.90,
+        price_tienda: 6.6,
+        downPayment: 2.97,
+        weeklyPayment: 2.31,
+        image: "4pp.jpg"
     },
     {
         id: 3,
         name: "Pizza Margarita",
-        description: "Pizza con salsa de tomate, muzzarella y albahaca",
-        price: 95,
-        downPayment: 28,
-        weeklyPayment: 22,
-        image: "combo-vegetariano.png"
+        description: "Pizza con salsa, muzzarella y Oregano",
+        price: 5.25,
+        price_tienda: 3.5,
+        downPayment: 1.57,
+        weeklyPayment: 1.22,
+        image: "margarita.jpg"
     },
     {
         id: 4,
         name: "Pizza Mechada",
-        description: "Pizza con carne mechada, cebolla y muzzarella",
-        price: 110,
-        downPayment: 33,
-        weeklyPayment: 26,
-        image: "combo-clasico.png"
+        description: "Pizza con carne mechada, Oregano y muzzarella",
+        price: 9.75,
+        price_tienda: 6,
+        downPayment: 2.92,
+        weeklyPayment: 2.27,
+        image: "mechada.jpg"
     },
     {
         id: 5,
         name: "Pizza Pepperoni",
-        description: "Pizza con pepperoni y muzzarella",
-        price: 100,
-        downPayment: 30,
-        weeklyPayment: 23,
-        image: "combo-clasico.png"
+        description: "Pizza con pepperoni, oregano y muzzarella ",
+        price: 6.75,
+        price_tienda: 4.5,
+        downPayment: 2.02,
+        weeklyPayment: 1.57,
+        image: "pepperini.png"
     },
     {
         id: 6,
         name: "Pizza Especial",
-        description: "Pizza con jamón, champiñones, pimiento y muzzarella",
-        price: 120,
-        downPayment: 36,
-        weeklyPayment: 28,
-        image: "combo-clasico.png"
+        description: "Pizza con jamón, maiz, oregano y muzzarella",
+        price: 8.25,
+        price_tienda: 5.5,
+        downPayment: 2.48,
+        weeklyPayment: 1.93,
+        image: "margarita.webp"
     },
     {
         id: 7,
         name: "Pizza 3 Quesos",
-        description: "Pizza con muzzarella, parmesano y queso azul",
-        price: 105,
-        downPayment: 31,
-        weeklyPayment: 25,
-        image: "combo-vegetariano.png"
+        description: "Pizza con muzzarella,salsa,  queso amarilo y borde de queso",
+        price: 8.25,
+        price_tienda: 5.5,
+        downPayment: 2.48,
+        weeklyPayment: 1.93,
+        image: "3_quesos.jpg"
     },
     {
         id: 8,
         name: "Hamburguesa Mac",
-        description: "Hamburguesa especial Mac con carne, lechuga, tomate y salsa especial",
-        price: 130,
-        downPayment: 39,
-        weeklyPayment: 30,
-        image: "combo-clasico.png"
+        description: "Hamburguesa especial Mac con carne, queso amarillo y salsa",
+        price: 5.40,
+        price_tienda: 0,
+        downPayment: 1.62,
+        weeklyPayment: 1.26,
+        image: "h2.jpg"
     },
     {
         id: 9,
         name: "Hamburguesa Especial",
-        description: "Hamburguesa doble carne, queso, tocineta, lechuga y tomate",
-        price: 140,
-        downPayment: 42,
-        weeklyPayment: 33,
-        image: "combo-clasico.png"
+        description: "Pan, carne o pollo, queso o chuleta ahumada, queso amarillo, huevo, tocineta, pepinillo, maiz, vegetales, papas fritas y salsas",
+        price: 10.80,
+        price_tienda: 0,
+        downPayment: 3.24,
+        weeklyPayment: 2.52,
+        image: "ha.jpg"
     },
     {
         id: 10,
         name: "Minipepito",
-        description: "Mini sandwich de carne con papas fritas",
-        price: 65,
-        downPayment: 19,
-        weeklyPayment: 15,
-        image: "combo-ninos.png"
+        description: "Pan, carne, pollo, chorizo, vegetales, maiz, papas fritas y salsas ",
+        price: 8.98,
+        price_tienda: 0,
+        downPayment: 2.70,
+        weeklyPayment: 2.10,
+        image: "pepito.jpeg"
     },
     {
         id: 11,
-        name: "Perro Normal",
-        description: "Perro caliente con salchicha, pan, salsa de tomate y mostaza",
-        price: 35,
-        downPayment: 10,
-        weeklyPayment: 8,
-        image: "combo-clasico.png"
+        name: "3 Perros Normales",
+        description: "Pan salchicha, cebolla, repollo, papitas, trio de salsa y salsas especiales",
+        price: 6.00,
+        price_tienda: 0,
+        downPayment: 1.80,
+        weeklyPayment: 1.40,
+        image: "perro.webp"
     },
     {
         id: 12,
-        name: "Perro Queso Fundido",
-        description: "Perro caliente con queso fundido y salchicha",
-        price: 45,
-        downPayment: 13,
-        weeklyPayment: 11,
-        image: "combo-clasico.png"
+        name: "3 Perros Queso Fundido",
+        description: "Pan salchicha, queso blanco, cebolla, repollo, papitas, trio de salsa y salsas especiales",
+        price: 8.25,
+        price_tienda: 0,
+        downPayment: 2.48,
+        weeklyPayment: 1.93,
+        image: "queso_f.png"
     },
     {
         id: 13,
         name: "Pasticho",
         description: "Capas de pasta con carne molida, salsa bechamel y queso gratinado",
-        price: 85,
-        downPayment: 25,
-        weeklyPayment: 20,
-        image: "combo-clasico.png"
+        price: 5.25,
+        price_tienda: 0,
+        downPayment: 1.57,
+        weeklyPayment: 1.22,
+        image: "pasticho.jpg"
     },
     {
         id: 14,
-        name: "Ensalada Sesal",
-        description: "Ensalada fresca con lechuga, tomate, zanahoria y aderezo especial",
-        price: 45,
-        downPayment: 13,
-        weeklyPayment: 11,
-        image: "combo-vegetariano.png"
+        name: "Ensalada Cesar Mediana",
+        description: "Ensalada fresca con lechuga y aderezo especial",
+        price: 7.49,
+        price_tienda: 0,
+        downPayment: 2.25,
+        weeklyPayment: 1.75,
+        image: "cesar.jpg"
     }
 ];
-
+344
 function createMenuItem(item) {
     return `
         <div class="menu-item-card" data-id="${item.id}">
@@ -159,16 +173,16 @@ function renderMenu() {
 }
 
 // Add smooth scrolling and animations
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     renderMenu();
-    
+
     // Add fade-in animation to menu items
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
     };
-    
-    const observer = new IntersectionObserver(function(entries) {
+
+    const observer = new IntersectionObserver(function (entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.style.opacity = '1';
@@ -176,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }, observerOptions);
-    
+
     // Observe menu items
     setTimeout(() => {
         document.querySelectorAll('.menu-item-card').forEach((item, index) => {
