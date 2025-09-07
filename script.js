@@ -97,7 +97,7 @@ const menuItems = [
         price_tienda: 0,
         downPayment: 2.70,
         weeklyPayment: 2.10,
-        image: "pepito.jpeg"
+        image: "pepi.jpg"
     },
     {
         id: 11,
